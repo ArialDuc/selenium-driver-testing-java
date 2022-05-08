@@ -15,6 +15,7 @@ public class Topic_01_Setup_Enviroment {
 	String projectPath = System.getProperty("user.dir");
 
 	//change
+	
 	@BeforeClass
 	public void beforeClass() {
 		System.setProperty("webdriver.gecko.driver", projectPath + "\\browserDrivers\\geckodriver.exe");
